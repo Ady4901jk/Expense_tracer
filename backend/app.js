@@ -10,9 +10,9 @@ const PORT = process.env.PORT
 
 //middlewares
 app.use(cors({
-    origin: "https://expense-ovi4yg57p-adityas-projects-6d993e50.vercel.app" 
-  }));
-  app.use(express.json());
+  origin: "https://expense-mvs3j4mmn-adityas-projects-6d993e50.vercel.app/" 
+}));
+app.use(express.json());
 
 //routes
 readdirSync('./routes').map((route) => app.use('/api/v1', require('./routes/' + route)))
