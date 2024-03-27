@@ -10,7 +10,7 @@ const PORT = process.env.PORT
 
 //middlewares
 app.use(cors({
-  origin: " https://expense-3urdo2j78-adityas-projects-6d993e50.vercel.app" 
+  origin: " https://expense-f6nfu5ee7-adityas-projects-6d993e50.vercel.app" 
 }));
 app.use(express.json());
 
